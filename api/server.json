@@ -1,0 +1,56 @@
+{
+    "id": "mockoon_export",
+    "appVersion": "1.4.0",
+    "checksum": "100fbb7365ed2e408687d7379c5d8aeb",
+    "subject": "full",
+    "data": [
+        {
+            "uuid": "976a42d0-bcca-11e9-bd27-331245907ae6",
+            "name": "7189",
+            "endpointPrefix": "",
+            "latency": 0,
+            "port": 7189,
+            "routes": [
+                {
+                    "uuid": "",
+                    "documentation": "",
+                    "method": "get",
+                    "endpoint": "v1/products",
+                    "body": "[  \r\n   {  \r\n      \"id\":\"1c0487fd-1e33-47ec-9541-f8de43d8abfe\",\r\n      \"title\":\"GPS Automotivo Garmin Drive 51\",\r\n      \"brand\":\"Garmin\",\r\n      \"tag\":\"gps-automotivo-garmin-drive-51\",\r\n      \"price\":809.1,\r\n      \"image\":\"https://baltademos.blob.core.windows.net/eshop/gps-automotivo-garmin-drive-51.jpg\"\r\n   },\r\n   {  \r\n      \"id\":\"f58448de-bb53-48fa-8347-70bad73f1ec4\",\r\n      \"title\":\"Notebook Samsung Essentials E30\",\r\n      \"brand\":\"Samsung\",\r\n      \"tag\":\"notebook-samsung-essentials-e30\",\r\n      \"price\":1709.99,\r\n      \"image\":\"https://baltademos.blob.core.windows.net/eshop/notebook-samsung-essentials-e30.jpg\"\r\n   },\r\n   {  \r\n      \"id\":\"0f8e8418-f3a3-4329-91c6-4548dc6af16b\",\r\n      \"title\":\"Smartphone Apple iPhone Xr 128GB\",\r\n      \"brand\":\"Apple\",\r\n      \"tag\":\"smartphone-apple-iphone-xr-128gb\",\r\n      \"price\":4949.1,\r\n      \"image\":\"https://baltademos.blob.core.windows.net/eshop/smartphone-apple-iphone-xr-128gb.jpg\"\r\n   },\r\n   {  \r\n      \"id\":\"9a0dc81e-0b76-427f-8f9e-7502c2bd1005\",\r\n      \"title\":\"Smartphone Motorola One 64GB\",\r\n      \"brand\":\"Motorola\",\r\n      \"tag\":\"smartphone-motorola-one-64gb\",\r\n      \"price\":999.0,\r\n      \"image\":\"https://baltademos.blob.core.windows.net/eshop/smartphone-motorola-one-64gb.jpg\"\r\n   },\r\n   {  \r\n      \"id\":\"58b3f5b6-55e8-4aa4-a352-a2e061b8aa6d\",\r\n      \"title\":\"Smartphone Samsung Galaxy M20 64GB\",\r\n      \"brand\":\"Samsung\",\r\n      \"tag\":\"smartphone-samsung-galaxy-m20-64gb\",\r\n      \"price\":1079.0,\r\n      \"image\":\"https://baltademos.blob.core.windows.net/eshop/smartphone-samsung-galaxy-m20-64gb.jpg\"\r\n   }\r\n]",
+                    "latency": 1500,
+                    "statusCode": "200",
+                    "headers": [
+                        {
+                            "key": "",
+                            "value": ""
+                        }
+                    ],
+                    "filePath": "",
+                    "sendFileAsBody": false
+                }
+            ],
+            "proxyMode": false,
+            "proxyHost": "",
+            "https": false,
+            "cors": true,
+            "headers": [
+                {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "key": "Access-Control-Allow-Origin",
+                    "value": "*"
+                },
+                {
+                    "key": "Access-Control-Allow-Headers",
+                    "value": "Origin, X-Requested-With, Content-Type, Accept, x-access-token"
+                },
+                {
+                    "key": "Access-Control-Allow-Methods",
+                    "value": "GET, POST, PUT, DELETE, OPTIONS"
+                }
+            ]
+        }
+    ]
+}

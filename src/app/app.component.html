@@ -1,0 +1,15 @@
+<ion-app>
+  <!-- <ion-router-outlet></ion-router-outlet> -->
+  <ion-menu>
+    <ion-content padding>
+      <ion-list>
+        <ion-item>
+          <ion-label>Meu Carrinho</ion-label>
+          <ion-note slot="end" color="danger">{{ (cart$ | async).products.length }}</ion-note>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+
+  <ion-router-outlet main></ion-router-outlet>
+</ion-app>
